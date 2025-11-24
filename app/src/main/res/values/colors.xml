@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="modern_primary">#1976D2</color>
+    <color name="modern_primary_dark">#1565C0</color>
+    <color name="modern_accent">#FFC107</color>
+    <color name="modern_background">#FAFAFA</color>
+    <color name="modern_text">#212121</color>
+
+    <color name="dark_primary">#212121</color>
+    <color name="dark_primary_dark">#000000</color>
+    <color name="dark_accent">#FF9800</color>
+    <color name="dark_background">#121212</color>
+    <color name="dark_text">#FFFFFF</color>
+
+    <color name="wh_primary">#E65100</color>
+    <color name="wh_primary_dark">#BF360C</color>
+    <color name="wh_accent">#0277BD</color>
+    <color name="wh_background">#FFFFFF</color>
+    <color name="wh_text">#212121</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>

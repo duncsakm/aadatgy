@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvCurrentServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/server_no_server"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnFindServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/server_find_network"
+        android:layout_marginStart="@dimen/button_side_margin"
+        android:layout_marginEnd="@dimen/button_side_margin" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/btnSetServerQr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/server_set_qr"
+        android:layout_marginStart="@dimen/button_side_margin"
+        android:layout_marginEnd="@dimen/button_side_margin" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/btnSetServerManual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/server_set_manual"
+        android:layout_marginStart="@dimen/button_side_margin"
+        android:layout_marginEnd="@dimen/button_side_margin" />
+
+</LinearLayout>

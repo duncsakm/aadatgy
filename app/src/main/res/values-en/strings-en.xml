@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Data Collector</string>
+
+    <string name="no_server">No server configured</string>
+    <string name="server_label">Server: %1$s:%2$d</string>
+
+    <string name="btn_cikktorzs">Update item master</string>
+    <string name="btn_arellenorzes">Price check</string>
+    <string name="btn_megrendeles">Order</string>
+    <string name="btn_leltar">Inventory</string>
+    <string name="btn_server_settings">Server settings</string>
+
+    <string name="err_need_server">Please set the server first in -Server settings-.</string>
+    <string name="err_download">Download error: %1$s</string>
+    <string name="download_ok">Item master downloaded, creating database…</string>
+    <string name="import_ok">Item master database ready. Records: %1$d</string>
+    <string name="import_error">DB error: %1$s (so far: %2$d records)</string>
+
+    <string name="camera_permission_denied">Camera permission required.</string>
+    <string name="camera_error">Camera error: %1$s</string>
+
+    <string name="scan_info">Point the camera at the barcode…</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="err_no_wplrad">wplrad.txt not found</string>
+    <string name="err_http">HTTP error: %1$d</string>
+    <string name="err_empty_wplrad">Empty WPLRAD.TXT</string>
+    <string name="err_download_exception">Download error: %1$s</string>
+
+    <string name="lookup_enter_code">Enter or scan a code!</string>
+    <string name="lookup_no_result">No item found for this code.</string>
+
+    <string name="lookup_name">Name: %1$s</string>
+    <string name="lookup_codes">Item code: %1$s  |  Barcode: %2$s</string>
+    <string name="lookup_pack">Package: %1$s</string>
+
+    <string name="lookup_price_label">Price:</string>
+    <string name="lookup_price">Retail price: %1$.2f Ft</string>
+    <string name="lookup_price_akc">Sale price: %1$.2f Ft</string>
+    <string name="lookup_price_spec">Special price: %1$.2f Ft</string>
+
+    <string name="lookup_afa">VAT: %1$d %%</string>
+    <string name="lookup_stock">Stock: %1$.3f</string>
+    <string name="lookup_carton">Carton multiplier: %1$d</string>
+
+    <string name="lookup_unknown">-</string>
+
+    <string name="lookup_title">Price check</string>
+    <string name="lookup_hint">Code (barcode)</string>
+    <string name="lookup_search">Search</string>
+    <string name="lookup_scan">Scan with camera</string>
+    <string name="lookup_result">Result:</string>
+
+    <string name="move_title_rendeles">Order</string>
+    <string name="move_title_leltar">Inventory</string>
+
+    <string name="move_no_code">Enter or scan a code!</string>
+    <string name="move_no_qty">Enter the quantity!</string>
+    <string name="move_qty_positive">Quantity must be a positive number!</string>
+    <string name="move_not_found">This code is not in the item master.</string>
+
+    <string name="move_existing_qty">Already recorded: %1$.3f</string>
+    <string name="move_no_existing_qty">No quantity recorded yet for this item.</string>
+
+    <string name="move_last_added">Last: %1$s - %2$s, added: %3$.3f</string>
+    <string name="move_last_added_carton">Last: %1$s - %2$s, added: %3$.3f</string>
+
+    <string name="move_list_item">%1$s  x %2$.3f  %3$s</string>
+    <string name="move_total">Total quantity: %1$.3f</string>
+
+    <string name="move_delete_title">Delete item</string>
+    <string name="move_delete_message">Are you sure you want to delete?\n%1$s  x %2$.3f</string>
+    <string name="yes">Yes</string>
+    <string name="no">Cancel</string>
+
+    <string name="move_no_items">There are no items.</string>
+
+    <string name="move_no_server">No server configured. Set it first!</string>
+
+    <string name="move_sent">%1$s sent to the server and the items were cleared.\n%2$s</string>
+
+    <string name="move_send_error">
+Error while sending: %1$s
+Items were NOT cleared, you can resend them later.
+    </string>
+
+    <string name="move_save_send_error">Error during saving/sending: %1$s</string>
+
+    <string name="move_title_hint">Order / Inventory</string>
+    <string name="move_input_code_hint">Code (barcode / item code)</string>
+    <string name="move_scan_button">Scan</string>
+    <string name="move_input_qty_hint">Quantity</string>
+    <string name="move_add_button">Add</string>
+    <string name="move_no_selected">No item selected.</string>
+    <string name="move_items_label">Items:</string>
+    <string name="move_summary_default">Total quantity: 0.000</string>
+    <string name="move_export_button">Send data</string>
+
+    <string name="err_unknown">Unknown error</string>
+    <string name="err_http_code">HTTP %1$d</string>
+
+    <string name="server_no_server">No server configured</string>
+
+    <string name="server_qr_invalid">Invalid QR data!</string>
+    <string name="server_qr_not_server">Not a server QR code!</string>
+    <string name="server_set_success">Server set: %1$s:%2$d</string>
+
+    <string name="server_manual_title">Manual server setup</string>
+    <string name="save">Save</string>
+    <string name="invalid_ip">Invalid IP address!</string>
+    <string name="invalid_port">Invalid port!</string>
+
+    <string name="network_searching">Searching on the network…</string>
+    <string name="network_not_found">No server found.</string>
+    <string name="network_choose_server">Choose server</string>
+    <string name="network_set">Set: %1$s (%2$s)</string>
+
+    <string name="server_find_network">Search server on network</string>
+    <string name="server_set_qr">Set server via QR code</string>
+    <string name="server_set_manual">Set server manually</string>
+
+    <string name="server_ip_label">IP address:</string>
+    <string name="server_ip_hint">192.168.0.100</string>
+
+    <string name="server_port_label">Port:</string>
+    <string name="server_port_hint">697</string>
+
+    <string name="theme_switch">Switch theme</string>
+    <string name="lang_switch">Switch language</string>
+
+</resources>

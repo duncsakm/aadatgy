@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.Aadatgy" parent="@style/Theme_App_DarkIndustrial" />
+
+    <style name="Theme.Aadatgy" parent="Base.Theme.Aadatgy" />
+
+</resources>

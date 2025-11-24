@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Adatgyűjtő</string>
+
+    <string name="no_server">Nincs beállított szerver</string>
+    <string name="server_label">Szerver: %1$s:%2$d</string>
+
+    <string name="btn_cikktorzs">Cikktörzs frissítése</string>
+    <string name="btn_arellenorzes">Árellenőrzés</string>
+    <string name="btn_megrendeles">Megrendelés</string>
+    <string name="btn_leltar">Leltár</string>
+    <string name="btn_server_settings">Szerver beállítása</string>
+
+    <string name="err_need_server">Először állítsd be a szervert a -Szerver beállítása- menüben.</string>
+    <string name="err_download">Letöltési hiba: %1$s</string>
+    <string name="download_ok">Cikktörzs letöltve, adatbázis készítése…</string>
+    <string name="import_ok">Cikktörzs adatbázis kész. Rekordok: %1$d</string>
+    <string name="import_error">DB hiba: %1$s (eddig: %2$d rekord)</string>
+
+    <string name="camera_permission_denied">Kameraengedély szükséges.</string>
+    <string name="camera_error">Kamera hiba: %1$s</string>
+
+    <string name="scan_info">Irányítsd a kamerát a vonalkódra…</string>
+    <string name="cancel">Mégse</string>
+
+    <string name="err_no_wplrad">wplrad.txt nem található</string>
+    <string name="err_http">HTTP hiba: %1$d</string>
+    <string name="err_empty_wplrad">Üres WPLRAD.TXT</string>
+    <string name="err_download_exception">Letöltési hiba: %1$s</string>
+
+    <string name="lookup_enter_code">Írj be vagy olvasson be egy kódot!</string>
+    <string name="lookup_no_result">Nincs találat erre a kódra.</string>
+
+    <string name="lookup_name">Név: %1$s</string>
+    <string name="lookup_codes">Cikk kód: %1$s  |  Vonalkód: %2$s</string>
+    <string name="lookup_pack">Kiszerelés: %1$s</string>
+
+    <string name="lookup_price_label">Ár:</string>
+    <string name="lookup_price">Fogyasztói ár: %1$.2f Ft</string>
+    <string name="lookup_price_akc">Akciós ár: %1$.2f Ft</string>
+    <string name="lookup_price_spec">Speciális ár: %1$.2f Ft</string>
+
+    <string name="lookup_afa">ÁFA: %1$d %%</string>
+    <string name="lookup_stock">Készlet: %1$.3f</string>
+    <string name="lookup_carton">Karton szorzó: %1$d</string>
+
+    <string name="lookup_unknown">-</string>
+
+    <string name="lookup_title">Árellenőrzés</string>
+    <string name="lookup_hint">Kód (vonalkód)</string>
+    <string name="lookup_search">Keresés</string>
+    <string name="lookup_scan">Kód olvasása kamerával</string>
+    <string name="lookup_result">Eredmény:</string>
+
+    <string name="move_title_rendeles">Megrendelés</string>
+    <string name="move_title_leltar">Leltár</string>
+
+    <string name="move_no_code">Írjon be vagy olvasson be egy kódot!</string>
+    <string name="move_no_qty">Adja meg a mennyiséget!</string>
+    <string name="move_qty_positive">A mennyiség legyen pozitív szám!</string>
+    <string name="move_not_found">Nincs ilyen kód a cikktörzsben.</string>
+
+    <string name="move_existing_qty">Már rögzítve mennyiség: %1$.3f</string>
+    <string name="move_no_existing_qty">Még nincs rögzítve ennél a cikknél mennyiség.</string>
+
+    <string name="move_last_added">Utoljára: %1$s - %2$s, hozzáadva: %3$.3f</string>
+    <string name="move_last_added_carton">Utoljára: %1$s - %2$s, hozzáadva: %3$.3f</string>
+
+    <string name="move_list_item">%1$s  x %2$.3f  %3$s</string>
+    <string name="move_total">Összes mennyiség: %1$.3f</string>
+
+    <string name="move_delete_title">Tétel törlése</string>
+    <string name="move_delete_message">Biztosan törlöd?\n%1$s  x %2$.3f</string>
+    <string name="yes">Igen</string>
+    <string name="no">Mégse</string>
+
+    <string name="move_no_items">Nincs egyetlen tétel sem.</string>
+
+    <string name="move_no_server">Nincs beállított szerver. Állítson be szervert!</string>
+
+    <string name="move_sent">%1$s elküldve a szervernek és a tételek törölve.\n%2$s</string>
+    <string name="move_send_error">Hiba az elküldésnél: %1$s\nA tételek NEM törlődtek, később újra elküldheted.</string>
+
+    <string name="move_save_send_error">Hiba a mentés/küldés közben: %1$s</string>
+
+    <string name="move_title_hint">Megrendelés / Leltár</string>
+    <string name="move_input_code_hint">Kód (vonalkód / cikk kód)</string>
+    <string name="move_scan_button">Olvas</string>
+    <string name="move_input_qty_hint">Mennyiség</string>
+    <string name="move_add_button">Hozzáadás</string>
+    <string name="move_no_selected">Nincs kiválasztott tétel.</string>
+    <string name="move_items_label">Tételek:</string>
+    <string name="move_summary_default">Összes mennyiség: 0.000</string>
+    <string name="move_export_button">Adatok küldése</string>
+
+    <string name="err_unknown">Ismeretlen hiba</string>
+    <string name="err_http_code">HTTP %1$d</string>
+
+    <string name="server_no_server">Nincs beállított szerver</string>
+
+    <string name="server_qr_invalid">Érvénytelen QR adat!</string>
+    <string name="server_qr_not_server">Nem szerver QR kód!</string>
+    <string name="server_set_success">Szerver beállítva: %1$s:%2$d</string>
+
+    <string name="server_manual_title">Szerver beállítása kézzel</string>
+    <string name="save">Mentés</string>
+    <string name="invalid_ip">Érvénytelen IP cím!</string>
+    <string name="invalid_port">Érvénytelen port!</string>
+
+    <string name="network_searching">Keresés a hálózaton…</string>
+    <string name="network_not_found">Nem találtam szervert.</string>
+    <string name="network_choose_server">Válaszd ki a szervert</string>
+    <string name="network_set">Beállítva: %1$s (%2$s)</string>
+
+    <string name="server_find_network">Szerver keresése a hálózaton</string>
+    <string name="server_set_qr">Szerver beállítása QR kóddal</string>
+    <string name="server_set_manual">Szerver beállítása kézzel</string>
+
+    <string name="server_ip_label">IP cím:</string>
+    <string name="server_ip_hint">192.168.0.100</string>
+
+    <string name="server_port_label">Port:</string>
+    <string name="server_port_hint">697</string>
+
+    <string name="theme_switch">Téma váltása</string>
+    <string name="lang_switch">Nyelv váltása</string>
+</resources>
